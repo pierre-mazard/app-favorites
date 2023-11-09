@@ -1,0 +1,231 @@
+/*Général*/
+.banière {
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    background: rgb(4,83,162);
+    background: linear-gradient(90deg, rgba(4,83,162,1) 7%, rgba(255,255,255,1) 22%, rgba(120,5,156,1) 41%, rgba(234,144,13,1) 59%, rgba(188, 5, 11, 0.721) 74%, rgba(3,3,3,1) 89%, rgba(255, 255, 255, 0.66) 100%);
+    color: rgb(11, 34, 54);
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgba(255,255,255,1);
+    font-size: 25px;
+    font-family: Stencil Std, fantasy
+    font-style: normal;
+    font-weight: 100;
+    font-variant: small-caps;
+}
+/*Acceuil*/
+body{
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(0,0,0,1) 100%);
+}
+a{
+    margin: 10%;
+}
+.logohome{
+    height: 60px;
+    width: 60px;
+    animation: wiggle 1.5s infinite;
+    animation-delay: 1.3s;
+}
+.listelogo {
+    opacity:calc(85%);
+    padding: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+    width: 545px;
+}
+footer{
+    text-align: right;
+    color: rgba(255,255,255,1);
+    font-size: 15px;
+    font-family: Stencil Std, fantasy
+    font-style: normal;
+    font-weight: 50;
+    font-variant: small-caps;
+}
+/*Facebook*/
+.bodyfb{
+    background: rgb(18,10,134);
+background: linear-gradient(180deg, rgba(18,10,134,1) 0%, rgba(3,68,173,1) 32%, rgba(16,102,182,1) 46%, rgba(6,128,174,1) 53%, rgba(255,255,255,1) 83%, rgba(255,255,255,1) 100%);
+    min-height: 100vh;
+}
+.headfb{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 550;
+}
+.logofb {
+    height: 60px;
+    width: 60px;
+    animation: wiggle 1.5s infinite;  
+}
+.giffb {
+    height: 225px;
+    width: 275px;
+}
+.h1fb{
+    text-align: center;
+    color: rgba(255,255,255,1);
+    font-size: 25px;
+    font-family: Stencil Std, fantasy
+    font-style: normal;
+    font-weight: 100;
+    font-variant: small-caps;
+}
+.Créationcomptefb{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 200px;
+    width: 300px;
+}
+.giffbdownl{
+    margin-top: 8%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100px;
+    width: 250px;
+    
+}
+/*Youtube*/
+.bodyyt{
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(11,11,11,1) 13%, rgba(182,19,19,1) 46%, rgba(169,8,8,1) 49%, rgba(36,34,34,1) 80%, rgba(255,255,255,1) 100%);
+    min-height: 100vh;
+}
+.gifyt {
+    height: 195px;
+    width: 195x;
+}
+.logoyt {
+    height: 60px;
+    width: 60px;
+    animation: wiggle 1.5s infinite;
+    animation-delay: 2.5s;  
+}
+.headyt{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 550;
+}
+.h1yt{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: Stencil Std, fantasy
+    font-style: normal;
+    font-weight: 100;
+    font-variant: small-caps;
+}
+.Créationcompteyt{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 200px;
+    width: 300px;
+}
+.gifytdownl{
+    margin-top: 8%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100px;
+    width: 250px;
+    
+}
+#spin {
+    color:rgb(255, 255, 255);
+  }
+  #spin:after {
+    content:"";
+    animation: spin 20s linear infinite;
+  }
+  .sloganyt{
+    text-align: center;
+    font-size: xx-large;
+  }
+ 
+/*Instagram*/
+.h1inst{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 100;
+    font-variant: small-caps;
+}
+.gifinst {
+    height: 145px;
+    width: 145px;
+}
+.logoinst {
+    height: 60px;
+    width: 60px;
+    animation: wiggle 1.5s infinite;
+    animation-delay: 2s;
+}
+.headinst{
+    color: black;
+    font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	font-size: 2.4rem;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+.bodyinst{
+    background: rgb(222,90,0);
+    background: linear-gradient(52deg, rgba(222,90,0,1) 2%, rgba(194,7,205,1) 26%, rgba(112,7,205,1) 47%, rgba(194,7,205,1) 76%, rgba(205,87,7,1) 94%);
+    min-height: 100vh;
+}
+.gifinstinscr{
+    margin-top: 8%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 145px;
+    width: 145px;
+}
+.gifinstdownl{
+    margin-top: 8%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100px;
+    width: 250px;
+    
+}
+
+/*Paramètres des animations*/
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(-10deg); }
+    20% { transform: rotate(10deg); }
+    30% { transform: rotate(-10deg); }
+    40% { transform: rotate(10deg); }
+    50% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+@keyframes spin {
+    0%  { content: "Watch, learn, and grow with YouTube."; }
+    25% { content: "Discover the world through YouTube."; }
+    50% { content: "YouTube: Where creativity meets community."; }
+    75% { content: "Experience the power of YouTube."; }
+  }
